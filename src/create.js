@@ -7,14 +7,12 @@ function Create() {
   return (
     <div className="Create">
       <div id="create-event-container">
+        <h1 id="create-title">Create your event:</h1>
         <Stack
           sx={{
-            width: "100%",
             paddingBottom: "20px",
           }}
-          spacing={2}
-          noValidate
-          autoComplete="off"
+          spacing={1}
         >
           <TextField label="Event Name" id="event-name" />
           <TextField label="Host Name" id="host-name" />
